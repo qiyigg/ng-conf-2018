@@ -1,0 +1,9 @@
+<h2>Debounced Echo Server:</h2>
+<div>
+    <label>Input: </label>
+    <input [(ngModel)] = 'input' (ngModelChange)='changed($event)'>
+</div>
+<div>
+    <label>Echo: </label>
+    <span>{{echo}}</span>
+</div>
